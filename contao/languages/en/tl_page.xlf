@@ -1,0 +1,21 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="contao/languages/en/tl_page.php" source-language="en">
+    <body>
+      <trans-unit id="tl_page.itemLayout.0">
+        <source>Item layout</source>
+      </trans-unit>
+      <trans-unit id="tl_page.itemLayout.1">
+        <source>Here you can select a different layout for items.</source>
+      </trans-unit>
+      <trans-unit id="tl_page.subpageItemLayout.0">
+        <source>Subpage item layout</source>
+      </trans-unit>
+      <trans-unit id="tl_page.subpageItemLayout.1">
+        <source>Here you can select a different layout for subpage items.</source>
+      </trans-unit>
+      <trans-unit id="tl_page.item_layout_inherit">
+        <source>Inherit item layout</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

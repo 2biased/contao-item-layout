@@ -1,0 +1,47 @@
+{
+    "name": "2biased/contao-item-layout-bundle",
+    "description": "",
+    "keywords": ["contao", "module"],
+    "type": "contao-bundle",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "2biased",
+            "email": "2biased@proton.me"
+        }
+    ],
+    "require": {
+        "php": "~8.1",
+        "contao/core-bundle": "^5.3"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.3",
+        "terminal42/contao-build-tools": "dev-main"
+    },
+    "conflict": {
+        "contao/manager-plugin": "<2.0 || >=3.0"
+    },
+    "autoload":{
+        "psr-4": {
+            "TwoBiased\\ContaoItemLayoutBundle\\": "src/"
+        }
+    },
+    "extra":{
+        "contao-manager-plugin": "TwoBiased\\ContaoItemLayoutBundle\\ContaoManager\\Plugin"
+    },
+    "config": {
+        "allow-plugins": {
+            "contao-components/installer": true,
+            "php-http/discovery": true,
+            "contao/manager-plugin": true,
+            "terminal42/contao-build-tools": true
+        }
+    },
+    "scripts": {
+        "all": [
+            "@cs-fixer",
+            "@rector",
+            "@phpstan"
+        ]
+    }
+}

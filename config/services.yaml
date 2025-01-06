@@ -1,0 +1,7 @@
+services:
+    _defaults:
+        autoconfigure: true
+
+    2biased.conato.basics.event_listeners:
+        namespace: TwoBiased\ContaoItemLayoutBundle\EventListener\
+        resource: '../src/EventListener'
